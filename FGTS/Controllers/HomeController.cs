@@ -18,6 +18,31 @@ namespace FGTS.Controllers
             return View();
         }
 
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public IActionResult Documents()
+        {
+            return View();
+        }
+
+        public IActionResult Utilization()
+        {
+            return View();
+        }
+
+        public IActionResult Monitoring()
+        {
+            return View();
+        }
+
+        public IActionResult Account()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
