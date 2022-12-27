@@ -69,9 +69,13 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-blank.html">
+						<a class="sidebar-link" data-bs-target="#documents" data-bs-toggle="collapse"  aria-expanded="true">
 							<i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Documents</span>
 						</a>
+						<ul id="documents" class="sidebar-dropdown list-unstyled collapse show" data-bs-parent="#sidebar" style="">
+							<li class="sidebar-item align-middle"><a class="sidebar-link" href="index.html">Tracking </a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="index.html">View Logs</a></li>	
+						</ul>
 					</li>
 
 					<li class="sidebar-item">
@@ -93,7 +97,7 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-blank.html">
+						<a class="sidebar-link" asp-controller="Provinces" asp-action="Index">
 							<i class="align-middle" data-feather="map-pin"></i> <span class="align-middle">Provinces</span>
 						</a>
 					</li>
